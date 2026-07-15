@@ -4,7 +4,7 @@ import streamlit as st
 import cv2
 from streamlit_drawable_canvas import st_canvas
 from tensorflow.keras.models import load_model
-from keras.models import load_model
+
 
 model=load_model("digit_recognition_model.keras")
 st.title("Handwritten Digit Recognition")
